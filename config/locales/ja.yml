@@ -1,0 +1,9 @@
+ja:
+  enums:
+    user:
+      part:
+        vocal: "ボーカル"
+        guitar: "ギター"
+        bass: "ベース"
+        drums: "ドラム"
+        keyboard: "キーボード"

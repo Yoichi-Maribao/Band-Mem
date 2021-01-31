@@ -1,0 +1,26 @@
+<h2>User Info</h2>
+
+<table class="table">
+  <tbody>
+    <tr>
+      <th>ユーザ名</th>
+      <th><%=user.name%></th>
+    </tr>
+    <tr>
+      <th>年齢</th>
+      <th><%=user.age%></th>
+    </tr>
+    <tr>
+      <th>パート</th>
+      <th><%=user.part%></th>
+    </tr>
+    <tr>
+      <th>自己紹介</th>
+      <th><%=user.intro%></th>
+    </tr>
+  </tbody>
+</table>
+
+<div class="row">
+  <%= link_to "", edit_user_path(@user.id), class: "btn btn-outline-secondary btn-block fas fa-user-cog mt-3"%>
+</div>
